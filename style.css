@@ -294,7 +294,8 @@ li > ol {
 img {
   -ms-interpolation-mode: bicubic;
   border: 0;
-  vertical-align: middle; }
+  vertical-align: middle;
+  }
 
 svg:not(:root) {
   overflow: hidden; }
@@ -438,7 +439,7 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, address, p, pre, blockquote, dl, dd, menu, ol, ul, table, caption, hr {
   margin: 0; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h4, h5, h6, .h1, .h2, .h4, .h5, .h6 {
   font-family: "Roboto Slab", sans-serif;
   line-height: 1.35; }
 
@@ -452,7 +453,8 @@ h2,
 
 h3,
 .h3 {
-  font-size: 22px; }
+  font-size: 22px;
+  font-family: 'Special Elite', cursive; }
 
 h4,
 .h4 {
@@ -835,7 +837,7 @@ a {
 
 /* Height and width */
 .fullscreen {
-  min-height: 85vh;
+  min-height: 100vh;
   width: 100%; }
 .w--100 {
   width: 100%; }
@@ -1792,7 +1794,7 @@ Header Styles
 .boxlayout {
   padding: 30px; }
 .header__area .container-fluid {
-  padding: 25px 80px; }
+  padding: 15px 80px; }
 .header__area .menubar {
   display: inline-block; }
   .header__area .menubar a.open_sidebar {
@@ -1917,7 +1919,7 @@ Header Styles
 	  display: flex;
 	  font-size: 14px;
 	  font-weight: 600;
-	  padding:  40px 40px;
+	  padding:  30px 40px;
 	  text-transform: uppercase;
 	  transition: all 0.4s ease 0s;
 	}
@@ -1938,7 +1940,7 @@ Header Styles
 		  background: transparent url("images/icons/icon_setting_white.png") no-repeat scroll left center;
 		}
 .mainmenu__nav .meninmenu li:first-child a {
-  padding-left: 0;
+  padding-left: 200px;
 }
 .oth-page .mainmenu__nav .meninmenu li a {
   color: #fff;
@@ -1956,7 +1958,7 @@ Header Styles
   background: rgba(0, 0, 0, 0) url("images/icons/cart_white.png") no-repeat scroll 0 center;
 }
 .oth-page.header__absolute {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 0px solid rgba(255, 255, 255, 0.1);
 }
 .header__area .header__sidebar__right > li.setting__bar__icon > a {
     background: transparent url("images/icons/icon_setting_white.png") no-repeat scroll left center;
@@ -4072,7 +4074,7 @@ h3.widget-title-modal {
   padding-top: 220px;
 }
 .bradcaump__inner .bradcaump-title {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -4986,7 +4988,7 @@ h3.widget-title-modal {
   text-transform: uppercase;
 }
 .skill-container .progress-bar {
-  background-color: #7b7b7b; }
+  background-color: #bb0000; }
 .skill-container .progress {
   background-color: #e1e1e1;
   height: 7px;
