@@ -560,7 +560,7 @@ a:hover {
   color: #dc3545; }
 
 a {
-  transition: 0.3s; }
+  transition: 0.3s; } 
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -3863,7 +3863,7 @@ h3.widget-title-modal {
 }
 	  .post__itam .content .post__time span {
   display: inline-block;
-  float: left;
+  
   font-size: 13px;
   margin-bottom: 15px;
 }
@@ -4804,7 +4804,7 @@ h3.widget-title-modal {
 }
   .gallery__menu button {
     background: #fff none repeat scroll 0 0;
-    color: color: #333;
+    color:  #333;
     border: medium none;
     display: inline-block;
     font-size: 12px;
@@ -4881,7 +4881,7 @@ h3.widget-title-modal {
 	  clear: none;
 	  color: #ffffff;
 	  display: inline-block;
-	  float: right;
+	  
 	  font-size: 16px;
 	  font-weight: 400;
 	  height: 50px;
@@ -5881,7 +5881,7 @@ a.checkout__title {
       .wedget__categories.poroduct--cat ul li a:hover {
         color: #dc3545; }
       .wedget__categories.poroduct--cat ul li a span {
-        color: ##333;
+        color: #333;
         float: right; }
 .wedget__categories.pro--range {
   margin: 0 0 30px; }
@@ -6424,24 +6424,9 @@ section.wn_contact_area {
   color: #fff;
 }
 
-.snow {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  position: absolute;
-  left: 20%;
-  top: 0;
-  z-infex: 2;
-  animation-name: fall;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 
-.snow svg {
-  width: 100%;
-  height: auto;
-}
+
+
 
 .frame-background {
   background-color: #5892b0;
