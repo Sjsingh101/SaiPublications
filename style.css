@@ -2522,7 +2522,9 @@ nav.menu {
         .product .product__content .action .actions_inner .add_to_links li a {
           border: 0 none;
 		       margin-right: 8px;
-           margin-left: 50px;
+           margin-left: 45px;
+           margin-top: 250px;
+           margin-bottom: 0px;
           border-radius: 60px;
           display: inline-block;
           font-size: 16px;
@@ -2780,7 +2782,8 @@ nav.menu {
 .yellow--color .product__nav.product__nav--2 a.active {
   color: #ffa800; }
 .product.product__style--3 .product__content.content--center {
-  text-align: left; }
+  text-align: left;
+    }
 .content--center .rating,
 .product.product__style--3 .product__content.content--center .prize {
   justify-content: center; }
