@@ -133,7 +133,7 @@
 		<!-- End Bradcaump area -->
 		<!-- Start Contact Area -->
 		<section class="wn_contact_area bg--white pt--80 pb--80">
-			<div class="google__map pb--80">
+		 <!--	<div class="google__map pb--80">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -141,15 +141,20 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>          -->
+
+			<a href="https://www.google.com/maps/place/Sai+Publication/@28.5054902,77.3362488,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce7c788f74417:0x354caebcb639fed6!8m2!3d28.5054855!4d77.3384375">
+				<img src="images/others/map.png" alt="logo"  width="1000" height="500" style="padding: 20px 0px 20px 160px; box-sizing: content-box;">
+			</a>
+			<br><br>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-12">
 						<div class="contact-form-wrap">
 							<h2 class="contact__title">Get in touch</h2>
 							<p>
-								We would <em>love</em> to hear from you! </p>
-								<p>Please use the <b><em>Contact Form</em></b>
+								We would <em>love</em> to hear from you! <br>
+								Please use the <b><em>Contact Form</em></b>
 								to send us a message.
 							</p>
 							
@@ -161,12 +166,17 @@
       <fieldset class="pure-group">
         <label for="name">Name: </label>
         <input id="name" name="name" placeholder="Your Name" />
+	  </fieldset>
+	  
+	  <fieldset class="pure-group">
+        <label for="color">Subject </label>
+        <input id="color" name="color" placeholder="Subject"  />
       </fieldset>
 
       <fieldset class="pure-group">
         <label for="message">Message: </label>
-        <textarea id="message" name="message" rows="10"
-        placeholder="Tell us what's on your mind..."></textarea>
+        <textarea id="message" name="message" rows="5" cols="40"
+        placeholder="Type your message here..."></textarea>
       </fieldset>
 
       <fieldset class="pure-group">
@@ -175,10 +185,7 @@
         required placeholder="your.name@email.com"/>
       </fieldset>
 
-      <fieldset class="pure-group">
-        <label for="color">Favourite Color: </label>
-        <input id="color" name="color" placeholder="green" />
-      </fieldset>
+      
 
      
 
@@ -300,7 +307,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<!-- Google Map js -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyDWLdlFDRLImPfiCyLNvudu6Exe-Y6As"></script>
+	<script   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyDWLdlFDRLImPfiCyLNvudu6Exe-Y6As"></script>
 	<script>
 		// When the window has finished loading create our google map below
 		google.maps.event.addDomListener(window, 'load', init);
@@ -315,7 +322,7 @@
 				scrollwheel: false,
 
 				// The latitude and longitude to center the map (always required)
-				center: new google.maps.LatLng(23.7286, 90.3854), // New York
+				center: new google.maps.LatLng(28.505627, 77.338448), // New York
 
 				// How you would like to style the map. 
 				// This is where you would paste any style found on Snazzy Maps.
