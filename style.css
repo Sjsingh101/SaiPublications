@@ -120,7 +120,7 @@ a {
   text-decoration: none; }
 
 a:visited {
-  color: #333; }
+  color: #dc3545; }
 
 a:focus {
   outline: thin dotted; }
@@ -131,7 +131,8 @@ a:hover {
   outline: 0; }
 
 a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: #dc3545; }
 
 h1,
 h2,
